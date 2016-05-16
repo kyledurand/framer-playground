@@ -17,11 +17,11 @@ scroll.contentInset =
   top: Constants.Defaults.SmallMargin * 2
   bottom: Constants.Defaults.SmallMargin * 2
 
-# Create your layers in a loop
+# Create your cards in a loop
 for i in [0..4]
-  layer = new Layer
+  card = new Layer
     parent: scroll.content
-    name: "Row #{i}"
+    name: "Card #{i}"
     width: Constants.Defaults.CardWidth - (Constants.Metrics.SmallMargin * 2)
     height: Constants.Defaults.CardHeight
     x: Constants.Defaults.SmallMargin * 2
@@ -29,18 +29,19 @@ for i in [0..4]
     backgroundColor: Constants.Colors.White
     borderRadius: Constants.Defaults.BorderRadius
 
-    input = new Keyboard.Input
-      parent: layer
-      virtualKeyboard: true
-      placeholder: "Username"
-      placeholderColor: Constants.Colors.Gray
-      type: "text"
-      y: 240
-      x: 90
-      width: 500
-      height: 80
-      goButton: true
-      borderColor: Constants.Colors.Gray
-      borderWidth: 2
-      borderRadius: Constants.Defaults.BorderRadius
-    
+    if i == 2 
+      input = new Keyboard.Input
+        parent: card
+        virtualKeyboard: true
+        placeholder: "Username"
+        placeholderColor: Constants.Colors.Gray
+        type: "text"
+        y: 240
+        x: 90
+        width: 500
+        height: 80
+        goButton: true
+        borderWidth: 2
+        borderColor: Constants.Colors.Gray
+        borderRadius: Constants.Defaults.BorderRadius
+      
