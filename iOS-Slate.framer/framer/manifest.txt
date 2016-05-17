@@ -1,8 +1,25 @@
 app.coffee
-framer/backups/backup-1461616121.coffee
-framer/backups/backup-1461625900.coffee
-framer/backups/backup-1461644627.coffee
-framer/backups/backup-1462558091.coffee
+framer/backups/backup-2016-05-16 16.27.02.coffee
+framer/backups/backup-2016-05-16 16.28.02.coffee
+framer/backups/backup-2016-05-16 16.30.02.coffee
+framer/backups/backup-2016-05-16 16.33.02.coffee
+framer/backups/backup-2016-05-16 16.34.02.coffee
+framer/backups/backup-2016-05-16 16.35.02.coffee
+framer/backups/backup-2016-05-16 16.36.02.coffee
+framer/backups/backup-2016-05-16 16.39.02.coffee
+framer/backups/backup-2016-05-16 16.40.02.coffee
+framer/backups/backup-2016-05-16 16.41.02.coffee
+framer/backups/backup-2016-05-16 16.50.02.coffee
+framer/backups/backup-2016-05-16 16.51.02.coffee
+framer/backups/backup-2016-05-16 16.52.02.coffee
+framer/backups/backup-2016-05-16 16.53.02.coffee
+framer/backups/backup-2016-05-16 16.54.02.coffee
+framer/backups/backup-2016-05-16 16.55.02.coffee
+framer/backups/backup-2016-05-16 16.56.02.coffee
+framer/backups/backup-2016-05-16 16.58.02.coffee
+framer/backups/backup-2016-05-16 16.59.02.coffee
+framer/backups/backup-2016-05-16 17.16.29.coffee
+framer/backups/backup-2016-05-16 17.17.29.coffee
 framer/coffee-script.js
 framer/config.json
 framer/framer.generated.js
@@ -28,6 +45,7 @@ framer/images/icon-framer.png
 framer/images/icon-framer@2x.png
 framer/images/icon-share.png
 framer/images/icon-share@2x.png
+framer/manifest.txt
 framer/mirror.css
 framer/style.css
 framer/version
@@ -37,7 +55,9 @@ imported/hearts@2x/images/Layer-Liked-m0jfodiz.png
 imported/hearts@2x/layers.json
 imported/hearts@2x/layers.json.js
 index.html
-modules/myModule.coffee
+modules/constants.coffee
+modules/keyboard.coffee
+modules/keyboard.png
 twitter1.jpg
 twitter1Avatar.png
 twitter2.jpg
