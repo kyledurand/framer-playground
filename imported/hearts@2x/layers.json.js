@@ -1,0 +1,55 @@
+window.__imported__ = window.__imported__ || {};
+window.__imported__["hearts@2x/layers.json.js"] = [
+	{
+		"objectId": "3BE82308-08D5-4700-A36B-EAA74169F112",
+		"kind": "group",
+		"name": "Liked",
+		"maskFrame": null,
+		"layerFrame": {
+			"x": 390,
+			"y": 615,
+			"width": 161,
+			"height": 151
+		},
+		"visible": true,
+		"metadata": {
+			"opacity": 1
+		},
+		"image": {
+			"path": "images/Layer-Liked-m0jfodiz.png",
+			"frame": {
+				"x": 390,
+				"y": 615,
+				"width": 161,
+				"height": 151
+			}
+		},
+		"children": []
+	},
+	{
+		"objectId": "CE709767-668A-4A8C-8A3D-5EF76F57EE64",
+		"kind": "group",
+		"name": "Like",
+		"maskFrame": null,
+		"layerFrame": {
+			"x": 390,
+			"y": 311,
+			"width": 161,
+			"height": 151
+		},
+		"visible": true,
+		"metadata": {
+			"opacity": 1
+		},
+		"image": {
+			"path": "images/Layer-Like-q0u3mdk3.png",
+			"frame": {
+				"x": 390,
+				"y": 311,
+				"width": 161,
+				"height": 151
+			}
+		},
+		"children": []
+	}
+]
